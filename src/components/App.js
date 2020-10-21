@@ -17,7 +17,7 @@ class App extends Component {
     render() {
     	return(
     		<div id="main">
-				<Button onClick="handleFun" id="click" />
+				<button onClick="handleFun" id="click">click</button>
 				{ /* Do not remove this main div!! */ }
 				{this.state.rend}
     		</div>
